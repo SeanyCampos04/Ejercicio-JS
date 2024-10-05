@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna */
+    background-color: #eef2f3; /* Color de fondo suave */
+    margin: 0; /* Sin margen alrededor del cuerpo */
+    padding: 20px; /* Espaciado alrededor del contenedor */
+    display: flex; /* Usa flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+.container {
+    max-width: 600px; /* Ancho máximo del contenedor */
+    width: 100%; /* Ancho completo del contenedor */
+    padding: 20px; /* Espaciado interno en el contenedor */
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    border-radius: 10px; /* Bordes redondeados en el contenedor */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.header {
+    text-align: center; /* Centra el texto en el encabezado */
+    margin-bottom: 30px; /* Espacio debajo del encabezado */
+    color: #333; /* Color de texto oscuro */
+}
+
+.form-wrapper {
+    display: flex; /* Disposición en fila para el formulario y la caja */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+form {
+    background-color: #f9f9f9; /* Fondo gris claro para el formulario */
+    padding: 20px; /* Espaciado interno en el formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 100%; /* Ancho completo del formulario */
+    max-width: 300px; /* Ancho máximo del formulario */
+}
+
+label {
+    display: block; /* Coloca cada etiqueta en una nueva línea */
+    margin-top: 10px; /* Espacio superior entre la etiqueta y el campo */
+    font-weight: 600; /* Negrita para las etiquetas */
+    color: #555; /* Color de texto gris */
+}
+
+input {
+    width: calc(100% - 16px); /* Ancho del campo de entrada con padding */
+    padding: 8px; /* Espaciado interno en el campo */
+    margin-top: 5px; /* Espacio entre la etiqueta y el campo */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados para el input */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total */
+}
+
+button {
+    margin-top: 15px; /* Espacio superior para el botón */
+    padding: 8px; /* Espaciado interno en el botón */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave para el color de fondo */
+    width: 100%; /* Ancho completo del botón */
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el mouse */
+}
+
+.info-box {
+    border: 1px solid #ccc; /* Borde gris claro */
+    background-color: #ffffff; /* Color de fondo blanco */
+    padding: 20px; /* Espaciado interno en la caja */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 10px; /* Bordes redondeados para la caja */
+    width: 70%; /* Ancho reducido de la caja de información */
+    margin-left: 20px; /* Espacio a la izquierda para separar de formulario */
+}
+
+#closeButton {
+    margin-top: 15px; /* Espacio superior para el botón de cerrar */
+    background-color: #dc3545; /* Color de fondo rojo para el botón de cerrar */
+    border-radius: 5px; /* Bordes redondeados para el botón de cerrar */
+    color: white; /* Color del texto en blanco */
+    width: 100%; /* Ancho completo del botón de cerrar */
+}
